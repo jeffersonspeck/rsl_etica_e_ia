@@ -2,9 +2,6 @@
 
 Este repositório reúne os materiais produzidos no contexto de uma Revisão Sistemática da Literatura (RSL) sobre **a presença e profundidade da discussão ética** envolvendo a aplicação da Inteligência Artificial (IA) no campo da educação.
 
-
-Claro! Aqui está um texto claro, objetivo e visualmente bem organizado para explicar o processo de busca realizado na **SBC OpenLib (SOL)**, incluindo a **string de busca**, **período**, **campos pesquisados** e **critérios aplicados**. Você pode usar este trecho diretamente no `README.md`, artigo ou relatório:
-
 ---
 
 ## Estratégia de Busca Realizada na SBC OpenLib (SOL)
