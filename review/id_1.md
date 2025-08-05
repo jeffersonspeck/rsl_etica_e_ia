@@ -1,4 +1,4 @@
-[⬅ Voltar para o README principal](./README.md)
+[⬅ Voltar para o README principal](../README.md)
 
 **Critério Avaliado:**
 O texto tem como foco principal a **discussão ética sobre a aplicação da inteligência artificial (IA) no contexto da educação**?
