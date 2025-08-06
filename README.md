@@ -1,86 +1,81 @@
-# Repositório de Análises Éticas sobre Inteligência Artificial na Educação
+# Repositório de Análises sobre Ética e Inteligência Artificial na Educação
 
-Este repositório reúne os materiais produzidos no contexto de uma Revisão Sistemática da Literatura (RSL) sobre **a presença e profundidade da discussão ética** envolvendo a aplicação da Inteligência Artificial (IA) no campo da educação.
-
----
-
-## Estratégia de Busca Realizada na SBC OpenLib (SOL)
-
-A presente análise foi conduzida com base em uma busca sistemática no repositório **SBC OpenLib (SOL)**, contemplando publicações indexadas entre:
-
-> **1º de janeiro de 2020** até **31 de maio de 2025**
-
-### Objetivo da Busca
-
-Identificar **artigos que abordem a ética na aplicação da inteligência artificial no contexto da educação**, a partir de uma combinação de termos em português e inglês.
+Este repositório reúne os materiais produzidos no contexto de uma **revisão da literatura** que investigou **a presença, o foco e a profundidade da discussão ética** sobre o uso da Inteligência Artificial (IA) no campo da educação brasileira. A análise foi conduzida com base em publicações disponíveis na plataforma **SBC OpenLib (SOL)**, considerando o período de 2020 a 2025.
 
 ---
 
-### String de Busca Utilizada
+## Objetivo da Revisão
+
+O estudo teve como objetivo identificar e analisar **como a dimensão ética tem sido abordada** nas publicações acadêmicas que tratam da aplicação da IA na educação. A partir dessa análise, buscou-se compreender:
+
+* Quais aspectos éticos são discutidos (privacidade, viés, equidade, regulação, desinformação, etc.);
+* Qual o nível de profundidade com que esses temas são tratados;
+* Em que medida a ética é tratada como foco central, secundário ou ausente.
+
+---
+
+## Recorte da Pesquisa
+
+* **Fonte**: [SBC OpenLib (SOL)](https://sol.sbc.org.br/) — Biblioteca Digital da Sociedade Brasileira de Computação
+* **Período analisado**: de **1º de janeiro de 2020** até **31 de maio de 2025**
+* **Área de interesse**: Interseção entre Ética, Inteligência Artificial e Educação
+
+---
+
+## Estratégia de Busca Utilizada
+
+Para localizar os trabalhos relevantes, foi utilizada a seguinte **string de busca**, aplicada aos campos de **título, resumo, palavras-chave e corpo do texto**:
 
 ```text
 (ethi* OR étic*) AND educa* AND ("intelig* artificial" OR "artificial intelligence" OR I.A OR IA)
 ```
 
-Essa expressão lógica foi aplicada para capturar diferentes variações linguísticas e gramaticais das seguintes ideias-chave:
+Essa expressão buscou capturar variações linguísticas e conceituais nos dois idiomas predominantes (português e inglês), envolvendo os seguintes termos:
 
-* **Ética**: ética, ético, ethical, ethics
-* **Educação**: educação, educacional, educativo, education
-* **Inteligência Artificial**: inteligência artificial, IA, I.A, artificial intelligence
-
----
-
-### Campos Pesquisados
-
-A busca foi realizada nos seguintes campos de cada publicação:
-
-* **Título**
-* **Resumo**
-* **Palavras-chave**
-* **Corpo do texto completo**
+* **Ética**: ética, ético, ethics, ethical
+* **Educação**: educação, educacional, education
+* **IA**: inteligência artificial, IA, I.A., artificial intelligence
 
 ---
 
-### Base Consultada
+## Processo de Triagem e Classificação
 
-> [SBC OpenLib (SOL) - Repositório Digital da Sociedade Brasileira de Computação](https://sol.sbc.org.br/)
+* **91** publicações identificadas inicialmente
+* **29** artigos únicos após eliminação de duplicatas
+* Cada artigo foi **avaliado manualmente** quanto ao seu foco ético, segundo três categorias:
 
----
-
-# Resultados Obtidos
-
-O conjunto de artigos resultante foi classificado manualmente e analisado quanto à **presença, foco e profundidade da discussão ética** sobre IA na educação. Cada item foi armazenado com:
-
-* O **arquivo PDF** original (`/data/classificados/ID.pdf`)
-* Um arquivo `.md` com a análise sistematizada (`/review/id_ID.md`)
+  * **Sim**: foco principal na discussão ética (6 artigos)
+  * **Sim, parcialmente**: abordagem ética transversal ou secundária (22 artigos)
+  * **Não**: ausência de discussão ética relevante (1 artigo)
 
 ---
 
-Cada artigo analisado foi avaliado com base em critérios específicos que buscam identificar:
+## Critérios de Análise
 
-- se há **foco explícito na dimensão ética** da IA;
-- qual o nível de **profundidade da abordagem** ética;
-- quais aspectos são discutidos (impacto social, privacidade, regulação, equidade, uso responsável, etc.).
+Cada artigo analisado foi estruturado com base nos seguintes critérios:
 
-## Estrutura da Análise
+| Critério                            | Descrição                                                               |
+| ----------------------------------- | ----------------------------------------------------------------------- |
+| **Critério Avaliado**               | O texto tem como foco principal a discussão ética sobre IA na educação? |
+| **Resultado da Análise**            | Sim / Sim, parcialmente / Não — com justificativa clara                 |
+| **1. Foco Geral do Texto**          | Objetivo principal e abordagem do estudo                                |
+| **2. Tratamento da Dimensão Ética** | Presença, profundidade e eventuais limitações                           |
+| **3. Trechos Relevantes**           | Citações que evidenciam ou ilustram a abordagem ética                   |
+| **4. Classificação Final**          | Tipo de foco + justificativa sintética                                  |
+| **Conclusão**                       | Síntese avaliativa em 2 ou 3 frases                                     |
 
-Todas as análises seguem a estrutura padronizada abaixo:
+---
 
-| Critério | Descrição |
-|---------|-----------|
-| **Critério Avaliado** | Verifica se o texto tem como foco principal a discussão ética sobre IA na educação |
-| **Resultado da Análise** | Sim / Sim, parcialmente / Não – com justificativa clara |
-| **1. Foco Geral do Texto** | Objetivo principal e estrutura geral do texto |
-| **2. Tratamento da Dimensão Ética** | Dividido em: <br> a) Presença do Tema Ético <br> b) Nível de Profundidade <br> c) Limitações da abordagem |
-| **3. Trechos Relevantes** | 3 a 5 citações que evidenciam a abordagem (ou ausência) da ética |
-| **4. Classificação Final** | Tabela com: <br> Classificação (Foco principal / secundário / apenas mencionado / ausente) <br> Justificativa |
-| **Conclusão** | Síntese com 2 a 3 frases sobre o grau de abordagem ética presente no artigo |
+## Estrutura do Repositório
+
+Para cada artigo analisado, disponibilizamos:
+
+* O **PDF original** da publicação (em `/data/classificados/ID.pdf`)
+* Um arquivo `.md` com a análise detalhada (em `/review/id_ID.md`)
 
 ---
 
 ## Acesso às Análises
-
-Os resumos das análises estão disponíveis nos seguintes arquivos `.md`:
 
 ## Tabela de Análises por Artigo
 
