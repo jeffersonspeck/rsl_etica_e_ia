@@ -114,5 +114,5 @@ Para cada artigo analisado, disponibilizamos:
 
 ---
 
-> **Nota**: Este `README.md` será complementado posteriormente com mais detalhes sobre os critérios metodológicos da RSL, bem como as estatísticas e gráficos de análise.
+> **Nota**: Este `README.md` é apenas um resumo do trabalho que fizemos com alguns detalhes das pesquisas e caminhos.
 
